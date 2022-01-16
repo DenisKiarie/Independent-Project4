@@ -5,9 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Pizza Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <script src="app.js"></script>
+    <div id="container" class="container">
+
+        <div id="menu">
+            <div class="brand-logo">
+                <img src="/pizza images/Logo.jpg" alt="Logo">
+            </div>
+            <div class="menu-item">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Your Orders</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Adress</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+
+        <div id="food-container">
+            <div id="header">
+                <div class="add-box">
+                    <i class="fa fa-map-marker your-address" id="add-address">Your Address</i>
+                </div>
+                <div class="util">
+                    <i class="fa fa-search">Search</i>
+                    <i class="fa fa-tags">Offers</i>
+                    <i class="fa fa-cart-plus" id="cart-plus">0 Items</i>
+                </div>
+            </div>
+            <div id="food-items">
+                <div id="pizza">
+                    <p id="category-name">Pizza</p>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">$.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="/pizza images/Cheese.jpg" alt="">
+                        <p id="item-name">Cheese Pizza</p>
+                        <p id="item-price">Price : $ 10</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cart">
+            <h1>Cart box</h1>
+        </div>
+
+    </div>
+    <script src="app.js "></script>
 </body>
 </html>
