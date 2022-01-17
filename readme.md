@@ -29,7 +29,7 @@ Below are the tecnologies used to create this application:
 
 ### Project Link.
 
-[Live link]( https://github.com/DenisKiarie/Independent-Project4.git "click here")
+[Live link](  https://deniskiarie.github.io/Independent-Project4/ "click here")
 
 ### License & Copyright.
 
