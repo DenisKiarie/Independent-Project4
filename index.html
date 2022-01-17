@@ -20,7 +20,7 @@
                 <a href="#">Services</a>
                 <a href="#">Your Orders</a>
                 <a href="#">Wishlist</a>
-                <a href="#">Adress</a>
+                <a href="#">Address</a>
                 <a href="#">Help</a>
             </div>
         </div>
@@ -36,24 +36,212 @@
                     <i class="fa fa-cart-plus" id="cart-plus">0 Items</i>
                 </div>
             </div>
-            <div id="food-items">
+            <div id="food-items" class="food-items">
                 <div id="pizza">
                     <p id="category-name">Pizza</p>
                     <div id="item-card">
                         <div id="card-top">
-                            <i class="fa fa-star" id="rating">$.3</i>
+                            <i class="fa fa-star" id="rating">4.5</i>
                             <i class="fa fa-heart-o add-to-cart"></i>
                         </div>
                         <img src="/pizza images/Cheese.jpg" alt="">
                         <p id="item-name">Cheese Pizza</p>
+                        <p id="item-price">Price : $ 12</p>
+                    </div>
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="/pizza images/BBQ.jpg" alt="">
+                        <p id="item-name">BBQ Pizza</p>
+                        <p id="item-price">Price : $ 15</p>
+                    </div>
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="/pizza images/Buffalo.jpg" alt="">
+                        <p id="item-name">Buffalo Pizza</p>
+                        <p id="item-price">Price : $ 9</p>
+                    </div>
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="/pizza images/Hawaiian.jpg" alt="">
+                        <p id="item-name">Hawaiian Pizza</p>
+                        <p id="item-price">Price : $ 13</p>
+                    </div>
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="/pizza images/Margherita.jpg" alt="">
+                        <p id="item-name">Margherita Pizza</p>
+                        <p id="item-price">Price : $ 11</p>
+                    </div>
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="/pizza images/Meat.jpg" alt="">
+                        <p id="item-name">Meat Pizza</p>
+                        <p id="item-price">Price : $ 13</p>
+                    </div>
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="/pizza images/Pepperoni.jpg" alt="">
+                        <p id="item-name">Pepperoni Pizza</p>
+                        <p id="item-price">Price : $ 14</p>
+                    </div>
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="/pizza images/Supreme.jpg" alt="">
+                        <p id="item-name">Supreme Pizza</p>
                         <p id="item-price">Price : $ 10</p>
                     </div>
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="/pizza images/The work's.jpg" alt="">
+                        <p id="item-name">The work's Pizza</p>
+                        <p id="item-price">Price : $ 11</p>
+                    </div>
+
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating">4.5</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="/pizza images/Veggie.jpg" alt="">
+                        <p id="item-name">Veggie Pizza</p>
+                        <p id="item-price">Price : $ 9</p>
+                    </div>
+
+
                 </div>
+            </div>
+
+            <div id="cart-page" class="cart-toggle">
+                <p id="cart-title">Cart Items</p>
+                <p id="m-total-amount">Total Amount : $ 100</p>
+                <table>
+                    <thead>
+                        <td>Item</td>
+                        <td>Name</td>
+                        <td>Quantity</td>
+                        <td>Price</td>
+                    </thead>
+                    <tbody id="table-body">
+                        <tr>
+                            <td>
+                                <img src="/pizza images/Margherita.jpg" alt="img">
+                            </td>
+                            <td>Margherita Pizza</td>
+                            <td>
+                                <button class="decrease-item">-</button>
+                                <span>1</span>
+                                <button class="increase-item">+</button>
+                            </td>
+                            <td>10</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
             </div>
         </div>
 
         <div id="cart">
-            <h1>Cart box</h1>
+            <div class="taste-header">
+                <div class="user">
+                    <i class="fa fa-user-circle">
+                        Account
+                    </i>
+                </div>
+            </div>
+            <div id="category-list">
+                <p class="item-menu">Pizza Hub</p>
+                <div class="border"></div>
+                <div class="list-card">
+                    <img src="/pizza images/BBQ.jpg" alt="list">
+                    <a href="" class="list-name">BBQ Delicacy</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="/pizza images/Buffalo.jpg" alt="list">
+                    <a href="" class="list-name">Buffalo Delicacy</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="/pizza images/Cheese.jpg" alt="list">
+                    <a href="" class="list-name">Cheese Delicacy</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="/pizza images/Hawaiian.jpg" alt="list">
+                    <a href="" class="list-name">Hawaiian Delicacy</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="/pizza images/Margherita.jpg" alt="list">
+                    <a href="" class="list-name">Margherita Delicacy</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="/pizza images/Meat.jpg" alt="list">
+                    <a href="" class="list-name">Meat Delicacy</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="/pizza images/Pepperoni.jpg" alt="list">
+                    <a href="" class="list-name">Pepperoni Delicacy</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="/pizza images/Supreme.jpg" alt="list">
+                    <a href="" class="list-name">Supreme Delicacy</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="/pizza images/The work's.jpg" alt="list">
+                    <a href="" class="list-name">The work's Delicacy</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="/pizza images/Veggie.jpg" alt="list">
+                    <a href="" class="list-name">Veggie Delicacy</a>
+                </div>
+
+            </div>
+            <div id="checkout" class="cart-toggle">
+                <p id="total-item">Total Items : 5</p>
+                <p id="total-price">Total Amount : $ 50</p>
+                <p id="delievery">Free Delivery above $ 40</p>
+                <button class="cart-btn">Checkout</button>
+
+            </div>
         </div>
 
     </div>
